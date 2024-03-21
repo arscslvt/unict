@@ -12,9 +12,9 @@ export default function MainLayout({
   dayjs.locale("it");
 
   return (
-    <div>
+    <div className="min-h-dvh">
       <Toolbar />
-      <main>{children}</main>
+      <main className="bg-background">{children}</main>
       <Toaster closeButton />
     </div>
   );

@@ -33,7 +33,7 @@ import { Button } from "./ui/button";
 
 export default function Toolbar() {
   return (
-    <div className="h-16 px-4 md:px-6 flex items-center gap-6">
+    <div className="h-16 px-4 md:px-6 flex items-center gap-6 bg-background">
       <div className="">
         <div className="flex items-center">
           <Image

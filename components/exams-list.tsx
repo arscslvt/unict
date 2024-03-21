@@ -109,7 +109,7 @@ const Item = ({ id, title, url, date, location, teacher }: ItemProps) => {
 
       <Modal
         open={isModalOpen}
-        onChange={() => setIsModalOpen(false)}
+        onChange={(status) => setIsModalOpen(status)}
         title="Dettagli esame"
         description={`Informazioni sull'esame di ${title}`}
       >
@@ -157,7 +157,7 @@ const Item = ({ id, title, url, date, location, teacher }: ItemProps) => {
                 <Cross1Icon /> Annulla prenotazione
               </Button>
               <Tooltip>
-                <TooltipTrigger>
+                <TooltipTrigger asChild>
                   <Button variant={"secondary"}>Disattiva notifiche</Button>
                 </TooltipTrigger>
 
