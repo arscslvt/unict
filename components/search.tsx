@@ -33,7 +33,7 @@ export default function Search() {
     <div ref={ref}>
       <Input
         placeholder="Cosa vuoi cercare?"
-        className="lg:min-w-64"
+        className="lg:min-w-64 text-[16px] h-10 sm:h-9 sm:text-sm"
         onFocus={() => setFocused(true)}
       />
       <AnimatePresence>
