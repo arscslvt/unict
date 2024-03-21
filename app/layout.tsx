@@ -6,9 +6,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SmartEdu",
+  title: "Studenti | Università di Catania",
   description:
-    "[MOCKUP] SmartEdu - A modern educational platform to manage your courses and exams.",
+    "Ei ciao 👋, questo è un mockup su come rifarei l'interfaccia del portale studenti dell'Università di Catania. Un progetto di Salvatore Aresco. [Sito web a scopo illustrativo]",
 };
 
 export default function RootLayout({
