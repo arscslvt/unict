@@ -6,14 +6,13 @@ import React, { HTMLAttributes } from "react";
 
 export default function MainLayout({
   children,
-  ...props
 }: {
   children: React.ReactNode;
-} & HTMLAttributes<HTMLDivElement>) {
+}) {
   dayjs.locale("it");
 
   return (
-    <div {...props}>
+    <div>
       <Toolbar />
       <main>{children}</main>
       <Toaster closeButton />
